@@ -16,6 +16,7 @@
 		9ED44F692603433000B53924 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED44F672603433000B53924 /* NoteCell.swift */; };
 		9ED44F6A2603433000B53924 /* NoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ED44F682603433000B53924 /* NoteCell.xib */; };
 		9ED44F6F2603446A00B53924 /* ScreenObjectAndElementNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED44F6E2603446A00B53924 /* ScreenObjectAndElementNames.swift */; };
+		9ED44F73260346F200B53924 /* NotesViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED44F72260346F200B53924 /* NotesViewControllerExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		9ED44F672603433000B53924 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
 		9ED44F682603433000B53924 /* NoteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteCell.xib; sourceTree = "<group>"; };
 		9ED44F6E2603446A00B53924 /* ScreenObjectAndElementNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenObjectAndElementNames.swift; sourceTree = "<group>"; };
+		9ED44F72260346F200B53924 /* NotesViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewControllerExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		9E03EEDA26033BA600FCB9EB /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				9ED44F71260346CC00B53924 /* Extensions */,
 				9E03EEC526033B3900FCB9EB /* NotesViewController.swift */,
 				9ED44F672603433000B53924 /* NoteCell.swift */,
 			);
@@ -106,6 +109,14 @@
 			children = (
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		9ED44F71260346CC00B53924 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9ED44F72260346F200B53924 /* NotesViewControllerExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +194,7 @@
 				9E03EEC226033B3900FCB9EB /* AppDelegate.swift in Sources */,
 				9E03EEC426033B3900FCB9EB /* SceneDelegate.swift in Sources */,
 				9ED44F692603433000B53924 /* NoteCell.swift in Sources */,
+				9ED44F73260346F200B53924 /* NotesViewControllerExtensions.swift in Sources */,
 				9ED44F6F2603446A00B53924 /* ScreenObjectAndElementNames.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
