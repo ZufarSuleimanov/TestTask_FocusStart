@@ -24,6 +24,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
+                <color key="backgroundColor" red="0.51194198369999999" green="0.180780947" blue="0.81651957529999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                 <constraints>
                     <constraint firstAttribute="trailing" secondItem="PDk-ga-dAB" secondAttribute="trailing" constant="16" id="52v-DG-mvY"/>
                     <constraint firstItem="PDk-ga-dAB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="HP1-F9-Ljx"/>

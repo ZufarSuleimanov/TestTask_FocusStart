@@ -24,6 +24,9 @@
                                     <navigationItem id="Nh5-9z-gao">
                                         <barButtonItem key="rightBarButtonItem" title="Создать" id="TPV-Pw-rDh">
                                             <color key="tintColor" red="0.98126319259999994" green="1" blue="0.9801598587" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <connections>
+                                                <action selector="Create:" destination="BYZ-38-t0r" id="r8G-zQ-xRg"/>
+                                            </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
@@ -53,10 +56,10 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="115.84821428571428"/>
         </scene>
-        <!--View Controller-->
+        <!--Note Content View Controller-->
         <scene sceneID="P80-uC-53E">
             <objects>
-                <viewController id="0OY-9Y-7Ug" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NoteContent" id="0OY-9Y-7Ug" customClass="NoteContentViewController" customModule="TestTask_FocusStart" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VqI-c0-aBr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -68,9 +71,15 @@
                                     <navigationItem title="Описание заметки" id="PTh-6e-nQK">
                                         <barButtonItem key="leftBarButtonItem" title="Назад" id="jWI-o5-6aa">
                                             <color key="tintColor" red="0.98126319259999994" green="1" blue="0.9801598587" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <connections>
+                                                <action selector="back:" destination="0OY-9Y-7Ug" id="qDG-73-w6r"/>
+                                            </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Сохранить" id="8Jh-Uw-QWx">
                                             <color key="tintColor" red="0.98126319259999994" green="1" blue="0.9801598587" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <connections>
+                                                <action selector="save:" destination="0OY-9Y-7Ug" id="NZc-Jz-7mu"/>
+                                            </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
@@ -98,7 +107,6 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="F99-vv-41f">
                                 <rect key="frame" x="4" y="137" width="406" height="725"/>
                                 <color key="backgroundColor" red="0.79995421379999998" green="0.5178628086" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -119,6 +127,11 @@
                             <constraint firstItem="UDu-1o-nNC" firstAttribute="leading" secondItem="nic-Mc-VdT" secondAttribute="leading" id="uYd-ah-qVa"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="contentTextView" destination="F99-vv-41f" id="KKw-p4-pkT"/>
+                        <outlet property="saveBarButtonItem" destination="8Jh-Uw-QWx" id="BmZ-oM-jag"/>
+                        <outlet property="titleTextField" destination="Hbe-6e-m2t" id="kzf-xf-Vni"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aPn-5D-AFQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

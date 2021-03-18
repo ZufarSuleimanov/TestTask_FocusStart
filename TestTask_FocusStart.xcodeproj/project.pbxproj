@@ -20,6 +20,8 @@
 		9ED44F6F2603446A00B53924 /* ScreenObjectAndElementNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED44F6E2603446A00B53924 /* ScreenObjectAndElementNames.swift */; };
 		9ED44F73260346F200B53924 /* NotesViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED44F72260346F200B53924 /* NotesViewControllerExtensions.swift */; };
 		9EF54F4326034E6000037D54 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF54F4226034E6000037D54 /* StorageManager.swift */; };
+		9EF54F46260355AE00037D54 /* NoteContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF54F45260355AE00037D54 /* NoteContentViewController.swift */; };
+		9EF54F4A2603578000037D54 /* NoteContentViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF54F492603578000037D54 /* NoteContentViewControllerExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		9ED44F6E2603446A00B53924 /* ScreenObjectAndElementNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenObjectAndElementNames.swift; sourceTree = "<group>"; };
 		9ED44F72260346F200B53924 /* NotesViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewControllerExtensions.swift; sourceTree = "<group>"; };
 		9EF54F4226034E6000037D54 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		9EF54F45260355AE00037D54 /* NoteContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteContentViewController.swift; sourceTree = "<group>"; };
+		9EF54F492603578000037D54 /* NoteContentViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteContentViewControllerExtensions.swift; sourceTree = "<group>"; };
 		FF346F25A4C74CD0B8CA159E /* Pods-TestTask_FocusStart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTask_FocusStart.release.xcconfig"; path = "Target Support Files/Pods-TestTask_FocusStart/Pods-TestTask_FocusStart.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,6 +123,7 @@
 				9ED44F71260346CC00B53924 /* Extensions */,
 				9E03EEC526033B3900FCB9EB /* NotesViewController.swift */,
 				9ED44F672603433000B53924 /* NoteCell.swift */,
+				9EF54F45260355AE00037D54 /* NoteContentViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -136,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				9ED44F72260346F200B53924 /* NotesViewControllerExtensions.swift */,
+				9EF54F492603578000037D54 /* NoteContentViewControllerExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -265,12 +271,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E03EEC626033B3900FCB9EB /* NotesViewController.swift in Sources */,
+				9EF54F46260355AE00037D54 /* NoteContentViewController.swift in Sources */,
 				9E03EEC226033B3900FCB9EB /* AppDelegate.swift in Sources */,
 				9E03EEC426033B3900FCB9EB /* SceneDelegate.swift in Sources */,
 				9E169F3926034C56000E2C83 /* NoteModel.swift in Sources */,
 				9ED44F692603433000B53924 /* NoteCell.swift in Sources */,
 				9ED44F73260346F200B53924 /* NotesViewControllerExtensions.swift in Sources */,
 				9ED44F6F2603446A00B53924 /* ScreenObjectAndElementNames.swift in Sources */,
+				9EF54F4A2603578000037D54 /* NoteContentViewControllerExtensions.swift in Sources */,
 				9EF54F4326034E6000037D54 /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
