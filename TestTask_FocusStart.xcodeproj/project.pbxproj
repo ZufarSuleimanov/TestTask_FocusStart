@@ -13,6 +13,8 @@
 		9E03EEC926033B3900FCB9EB /* Notes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E03EEC726033B3900FCB9EB /* Notes.storyboard */; };
 		9E03EECB26033B3C00FCB9EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E03EECA26033B3C00FCB9EB /* Assets.xcassets */; };
 		9E03EECE26033B3C00FCB9EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E03EECC26033B3C00FCB9EB /* LaunchScreen.storyboard */; };
+		9ED44F692603433000B53924 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED44F672603433000B53924 /* NoteCell.swift */; };
+		9ED44F6A2603433000B53924 /* NoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ED44F682603433000B53924 /* NoteCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9E03EECA26033B3C00FCB9EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E03EECD26033B3C00FCB9EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E03EECF26033B3C00FCB9EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ED44F672603433000B53924 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		9ED44F682603433000B53924 /* NoteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,7 @@
 			children = (
 				9E03EEC726033B3900FCB9EB /* Notes.storyboard */,
 				9E03EECC26033B3C00FCB9EB /* LaunchScreen.storyboard */,
+				9ED44F682603433000B53924 /* NoteCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -88,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				9E03EEC526033B3900FCB9EB /* NotesViewController.swift */,
+				9ED44F672603433000B53924 /* NoteCell.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -159,6 +165,7 @@
 				9E03EECE26033B3C00FCB9EB /* LaunchScreen.storyboard in Resources */,
 				9E03EECB26033B3C00FCB9EB /* Assets.xcassets in Resources */,
 				9E03EEC926033B3900FCB9EB /* Notes.storyboard in Resources */,
+				9ED44F6A2603433000B53924 /* NoteCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +179,7 @@
 				9E03EEC626033B3900FCB9EB /* NotesViewController.swift in Sources */,
 				9E03EEC226033B3900FCB9EB /* AppDelegate.swift in Sources */,
 				9E03EEC426033B3900FCB9EB /* SceneDelegate.swift in Sources */,
+				9ED44F692603433000B53924 /* NoteCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
