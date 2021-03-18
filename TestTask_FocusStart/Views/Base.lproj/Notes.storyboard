@@ -11,7 +11,7 @@
         <!--Notes View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="NotesViewController" customModule="TestTask_FocusStart" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NoteCell" id="BYZ-38-t0r" customClass="NotesViewController" customModule="TestTask_FocusStart" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -37,6 +37,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.51194198369999999" green="0.180780947" blue="0.81651957529999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <connections>
+                        <outlet property="notesTableView" destination="xq1-GP-Tnv" id="j4W-pd-tAg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
