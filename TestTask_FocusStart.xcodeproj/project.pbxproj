@@ -15,6 +15,7 @@
 		9E03EECE26033B3C00FCB9EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E03EECC26033B3C00FCB9EB /* LaunchScreen.storyboard */; };
 		9ED44F692603433000B53924 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED44F672603433000B53924 /* NoteCell.swift */; };
 		9ED44F6A2603433000B53924 /* NoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ED44F682603433000B53924 /* NoteCell.xib */; };
+		9ED44F6F2603446A00B53924 /* ScreenObjectAndElementNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED44F6E2603446A00B53924 /* ScreenObjectAndElementNames.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9E03EECF26033B3C00FCB9EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9ED44F672603433000B53924 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
 		9ED44F682603433000B53924 /* NoteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteCell.xib; sourceTree = "<group>"; };
+		9ED44F6E2603446A00B53924 /* ScreenObjectAndElementNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenObjectAndElementNames.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				9E03EEC126033B3900FCB9EB /* AppDelegate.swift */,
 				9E03EEC326033B3900FCB9EB /* SceneDelegate.swift */,
 				9E03EECA26033B3C00FCB9EB /* Assets.xcassets */,
+				9ED44F6E2603446A00B53924 /* ScreenObjectAndElementNames.swift */,
 			);
 			path = "Supporting files";
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				9E03EEC226033B3900FCB9EB /* AppDelegate.swift in Sources */,
 				9E03EEC426033B3900FCB9EB /* SceneDelegate.swift in Sources */,
 				9ED44F692603433000B53924 /* NoteCell.swift in Sources */,
+				9ED44F6F2603446A00B53924 /* ScreenObjectAndElementNames.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
