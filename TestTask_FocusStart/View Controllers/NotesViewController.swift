@@ -6,9 +6,12 @@
 //
 
 import UIKit
+import RealmSwift
 
 class NotesViewController: UIViewController {
 
+    var notes: Results<Note>!
+    
     @IBOutlet weak var notesTableView: UITableView!
     
     override func viewDidLoad() {

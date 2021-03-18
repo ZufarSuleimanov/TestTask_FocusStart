@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,10 +14,12 @@
 		9E03EEC926033B3900FCB9EB /* Notes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E03EEC726033B3900FCB9EB /* Notes.storyboard */; };
 		9E03EECB26033B3C00FCB9EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E03EECA26033B3C00FCB9EB /* Assets.xcassets */; };
 		9E03EECE26033B3C00FCB9EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E03EECC26033B3C00FCB9EB /* LaunchScreen.storyboard */; };
+		9E169F3926034C56000E2C83 /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E169F3826034C56000E2C83 /* NoteModel.swift */; };
 		9ED44F692603433000B53924 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED44F672603433000B53924 /* NoteCell.swift */; };
 		9ED44F6A2603433000B53924 /* NoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ED44F682603433000B53924 /* NoteCell.xib */; };
 		9ED44F6F2603446A00B53924 /* ScreenObjectAndElementNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED44F6E2603446A00B53924 /* ScreenObjectAndElementNames.swift */; };
 		9ED44F73260346F200B53924 /* NotesViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED44F72260346F200B53924 /* NotesViewControllerExtensions.swift */; };
+		9EF54F4326034E6000037D54 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF54F4226034E6000037D54 /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,10 +33,12 @@
 		9E03EECA26033B3C00FCB9EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E03EECD26033B3C00FCB9EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E03EECF26033B3C00FCB9EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E169F3826034C56000E2C83 /* NoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
 		9ED44F672603433000B53924 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
 		9ED44F682603433000B53924 /* NoteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteCell.xib; sourceTree = "<group>"; };
 		9ED44F6E2603446A00B53924 /* ScreenObjectAndElementNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenObjectAndElementNames.swift; sourceTree = "<group>"; };
 		9ED44F72260346F200B53924 /* NotesViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewControllerExtensions.swift; sourceTree = "<group>"; };
+		9EF54F4226034E6000037D54 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		FF346F25A4C74CD0B8CA159E /* Pods-TestTask_FocusStart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTask_FocusStart.release.xcconfig"; path = "Target Support Files/Pods-TestTask_FocusStart/Pods-TestTask_FocusStart.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,6 +126,8 @@
 		9E03EEDB26033BC000FCB9EB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9E169F3826034C56000E2C83 /* NoteModel.swift */,
+				9EF54F4226034E6000037D54 /* StorageManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -140,7 +146,6 @@
 				60049922856B7B6AB9BB4541 /* Pods-TestTask_FocusStart.debug.xcconfig */,
 				FF346F25A4C74CD0B8CA159E /* Pods-TestTask_FocusStart.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -262,9 +267,11 @@
 				9E03EEC626033B3900FCB9EB /* NotesViewController.swift in Sources */,
 				9E03EEC226033B3900FCB9EB /* AppDelegate.swift in Sources */,
 				9E03EEC426033B3900FCB9EB /* SceneDelegate.swift in Sources */,
+				9E169F3926034C56000E2C83 /* NoteModel.swift in Sources */,
 				9ED44F692603433000B53924 /* NoteCell.swift in Sources */,
 				9ED44F73260346F200B53924 /* NotesViewControllerExtensions.swift in Sources */,
 				9ED44F6F2603446A00B53924 /* ScreenObjectAndElementNames.swift in Sources */,
+				9EF54F4326034E6000037D54 /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

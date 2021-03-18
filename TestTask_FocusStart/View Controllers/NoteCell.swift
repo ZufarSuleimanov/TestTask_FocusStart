@@ -11,7 +11,8 @@ class NoteCell: UITableViewCell {
 
     @IBOutlet weak var titleLable: UILabel!
     
-//    func setCell(object: Note) {
-//        self.titleLable.text = object.emoji
-//    }
+    func setCell(object: Note) {
+        self.titleLable.text = object.emoji
+    }
+    
 }
