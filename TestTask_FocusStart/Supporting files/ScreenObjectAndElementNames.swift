@@ -13,6 +13,7 @@ enum Storyboards: String {
 
 enum ViewControllers: String {
     case notes = "Notes"
+    case noteContent = "NoteContent"
 }
 
 enum Cells : String {
